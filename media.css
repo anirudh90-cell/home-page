@@ -1,0 +1,163 @@
+@media (max-width:1000px) {
+    .about, .home, .Contact, .login-signup {
+        margin-right: 20px;
+    }
+    .headings-header{
+        background-color: rgb(0, 0, 255);
+
+
+    }
+    .contents-with-image{
+        margin: 30px;
+        padding: 60px;
+    }
+    #image-header{
+        display: none;
+    }
+    .para-content-1 {
+        font-size: 40px;
+    }
+    .music-players {
+        margin-top: 200px;
+       
+    }
+    .play-music{
+        width: 100%;
+
+    }
+    .h1-music{
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+    .h3-contact-image{
+        font-size: 25px;
+    }
+    .contact-image{
+        padding: 20px;
+    }
+    #contact-image{
+        width: 90%;
+    }
+    .contact-container {
+        width: 380px;
+    }
+   
+}
+@media (max-width: 800px) {
+    .headers {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        width: 80%;
+        text-align: left;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        max-height: 0;
+        overflow: hidden;
+        z-index: 1000;
+        transition: max-height 0.3s ease-in-out;
+        border-radius: 10px;
+    }
+    .icon{
+        display: none;
+    }
+
+    .headers.show {
+        display: flex;
+        max-height: 500px;
+    }
+
+    .about, .home, .Contact, .login-signup, .icon {
+        margin-right: 0;
+        padding: 15px 20px;
+        color: black;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .close-icon {
+        display: block;
+    }
+}
+
+
+@media(max-width: 400px){
+    .headings-header{
+        width: 100%;
+        display: block;
+
+    }
+   
+    .menu-toggle{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .image-header{
+        display: none;
+    }
+    .headings-header{
+        background-color: blue;
+
+    }
+    .para-content-1 {
+        font-size: 30px;
+    }
+    .contents-with-image {
+        margin: 50px 0 50px 0;
+
+    }
+    #image-content-header{
+        width: 60%;
+        padding: 10px;
+    }
+    .h1-music{
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+    .music-players {
+        margin-top: 50px;
+       
+    }
+    .music-four,.music-three{
+        display: none;
+    }
+    #h1-weather-checker{
+        font-size: 40px;
+        padding: 20px;
+       letter-spacing: 2px;
+    }
+    #getWeather{
+        margin:10px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: blue;
+        color: white;
+        border: none;
+    }
+    .contact-image{
+        display: none;
+    }
+    .h1-contact-div{
+        text-align: center;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
+    }
+    .contact-div{
+        box-shadow: none;
+        border: 2px solid black;
+        border-radius: 0;
+    }
+    .footer-para{
+        color: white;
+    }
+    .span-footer{
+        color: white;
+    }
+}
